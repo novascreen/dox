@@ -450,6 +450,10 @@ You may use `-S`, `--skipSingleStar` or `{skipSingleStar: true}` to ignore `/* .
      $ npm install -d
      $ make test
 
+### Build browser version
+
+    $ browserify lib/dox.js -o dist/dox.js -s dox
+
 ## License
 
 (The MIT License)
